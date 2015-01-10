@@ -15,3 +15,10 @@ This project is a single-page app implementation of [Chitter](https://github.com
 * MongoDB with Mongoskin
 * HTML5 with EJS
 * CSS3
+
+## To Do
+
+* Build user logins and authentication
+* Refactor routes into modules
+* Abstract CRUD functions to models
+* Format date objects with Handlebars helper

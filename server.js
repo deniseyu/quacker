@@ -41,6 +41,14 @@ app.get('/quacks', function(req, res){
   res.render('quacks', { quack: req.quack })
 });
 
+app.delete('/quacks/:id', function(req, res){
+  var db = req.db;
+  var quackToDelete = req.params.id;
+  db.quacks.removeById(quackToDelete, function(err, result){
+    res.send((result === 1) ? { msg: '' } : { msg : err });
+  });
+});
+
 app.listen(8080, function(){
   console.log("Quacking on port 8080")
 });;

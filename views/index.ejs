@@ -13,9 +13,9 @@
 
 <template id='quacksTemplate'>
   <section class='oneQuack'>
-    <header class='quack-user'>{{user}}</header>
+    <header class='quack-user'>{{user}} says:</header>
     <main class='quack-body'>{{content}}</main>
     <footer class='quack-date'>{{date}}
-      <a href='#'>Delete</a></footer>
+      <a href='#' class='delete' data-id='{{_id}}'>Delete</a></footer>
   </section>
 </template>
