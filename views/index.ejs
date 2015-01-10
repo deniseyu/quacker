@@ -1,0 +1,21 @@
+<h1>Quacker</h1>
+<h2>Rubber Duckie, you're the one</h2>
+<h2>You make bath time lots of fun</h2>
+
+<section id='submission-box'>
+  <input type='text' id='quack-content'></textarea>
+  <button id='quack-button' value='Quack'>
+    Quack!
+  </button>
+</section>
+
+<section id='quacks-feed'></section>
+
+<template id='quacksTemplate'>
+  <section class='oneQuack'>
+    <header class='quack-user'>{{user}}</header>
+    <main class='quack-body'>{{content}}</main>
+    <footer class='quack-date'>{{date}}
+      <a href='#'>Delete</a></footer>
+  </section>
+</template>

@@ -1,0 +1,56 @@
+body {
+  color: #2CAAFF;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#submission-box {
+  width: 450px;
+  margin: auto;
+  padding: 20px;
+}
+
+#quack-content {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.2em;
+  height: 30px;
+  width: 335px;
+  padding: 5px;
+}
+
+#quack-button {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5em;
+  color: white;
+  border: 0px;
+  margin: 2px;
+  height: 40px;
+  background-color: #83C3E5;
+}
+
+.oneQuack {
+  width: 500px;
+  height: 100px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #FEFFA7;
+}
+
+.quack-user {
+  font-size: 2em;
+}
