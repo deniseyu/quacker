@@ -12,3 +12,6 @@ This project is a single-page app implementation of [Chitter](https://github.com
 * jQuery
 * HandlebarsJS
 * AJAX
+* MongoDB with Mongoskin
+* HTML5 with EJS
+* CSS3
