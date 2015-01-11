@@ -8,14 +8,13 @@
     "ejs": "^2.0.8",
     "express": "^4.10.7",
     "express-ejs-layouts": "^1.1.0",
-    "moment": "^2.9.0",
     "mongo": "^0.1.0",
-    "mongoose": "^3.8.21",
     "mongoskin": "^1.4.4"
   },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0",
+    "protractor": "^1.6.0",
     "selenium-webdriver": "^2.44.0"
   },
   "scripts": {

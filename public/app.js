@@ -27,10 +27,11 @@ $(document).ready(function(){
 
   $('#quacks-feed').on('click', '.delete', function(event){
     event.preventDefault();
-    var confirmation = confirm('Are you sure you want to delete this quack?');
-    if (confirmation === true) {
-      var quackID = $(this).data('id');
-      // console.log($(this).data('id'));
+    var link = $(this);
+    var quackID = $(this).data('id');
+    $(this).html('you sure? <a href="#" class="yes">yes</a> | <a href="#" class="no">no</a>');
+    $(this).on('click', '.yes', function(event){
+      event.preventDefault();
       $.ajax({
         type: 'DELETE',
         url: '/quacks/' + quackID
@@ -38,11 +39,12 @@ $(document).ready(function(){
         clearQuacks();
         getQuacks();
       });
-    } else {
-      return false;
-    }
+    });
+    $(this).on('click', '.no', function(event){
+      event.preventDefault();
+      $(link).html('<a href="#" class="delete" data-id="'+quackID+'">delete</a>');
+    });
   });
-
 });
 
 function getQuacks(){
