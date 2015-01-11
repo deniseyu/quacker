@@ -38,6 +38,7 @@ nav {
 
 #quacks-main-body {
   margin-top: 50px;
+  margin-bottom: 200px;
 }
 
 #background-image {
@@ -51,7 +52,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 h1 {
@@ -87,7 +88,7 @@ h3 {
   border: 0px;
   margin: 2px;
   height: 40px;
-  background-color: #83C3E5;
+  background-color: #86D3FF;
 }
 
 .oneQuack {
@@ -97,7 +98,8 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  background-color: #FEFFA7;
+  border: 3px solid #FEFFA7;
+  background-color: white;
 }
 
 .quack-user {
@@ -115,4 +117,29 @@ h3 {
   margin-top: 10px;
   text-align: right;
   font-size: 0.8em;
+}
+
+#page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  background-color: #D3FCFD;
+  padding-bottom: 10px;
+}
+
+#page-footer p {
+  color: #0680E5;
+  font-size: 0.7em;
+}
+
+#page-footer a {
+  color: #0680E5;
+  text-decoration: none;
+}
+
+#page-footer a:hover {
+  color: #FEFFA7;
 }
