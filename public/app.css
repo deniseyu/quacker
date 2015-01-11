@@ -3,6 +3,43 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+}
+
+.page-header {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.page-caption {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.sign-in-link {
+  position: absolute;
+  display: inline;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  padding-left: 20px;
+}
+
+#quacks-main-body {
+  margin-top: 50px;
+}
+
 #background-image {
   position: fixed;
   top: 0;
@@ -19,20 +56,18 @@ body {
 
 h1 {
   font-family: 'Fredoka One', cursive;
-  font-size: 3.5em;
-  text-align: center;
+  font-size: 1.6em;
 }
 
-h2 {
+h3 {
   font-family: 'Fredoka One', cursive;
-  font-size: 1.3em;
-  text-align: center;
+  font-size: 1.1em;
   padding: 0;
   margin: 0;
 }
 
 #submission-box {
-  width: 450px;
+  width: 500px;
   margin: auto;
   padding: 20px;
 }
@@ -41,7 +76,7 @@ h2 {
   font-family: 'Fredoka One', cursive;
   font-size: 1.2em;
   height: 30px;
-  width: 335px;
+  width: 385px;
   padding: 5px;
 }
 

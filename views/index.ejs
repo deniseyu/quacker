@@ -1,21 +1,30 @@
-<h1 class='page-header'>Quacker</h1>
-<h2>Rubber Duckie, you're the one</h2>
-<h2>You make bath time lots of fun</h2>
+<nav>
+  <h1 class='page-header'>Quacker</h1>
+  <h3 class='page-caption'>
+    Rubber Duckie, you're the one ♪♫
+    You make bath time lots of fun
+  </h3>
+  <h3 class='sign-in-link'>Log In</h3>
+</nav>
 
-<section id='submission-box'>
-  <input type='text' id='quack-content'></textarea>
-  <button id='quack-button' value='Quack'>
-    Quack!
-  </button>
-</section>
+<main id='quacks-main-body'>
 
-<section id='quacks-feed'></section>
-
-<template id='quacksTemplate'>
-  <section class='oneQuack'>
-    <header class='quack-user'>{{user}} says:</header>
-    <main class='quack-body'>{{content}}</main>
-    <footer class='quack-date'>{{date}}
-      <a href='#' class='delete' data-id='{{_id}}'>Delete</a></footer>
+  <section id='submission-box'>
+    <input type='text' id='quack-content'></textarea>
+    <button id='quack-button' value='Quack'>
+      Quack!
+    </button>
   </section>
-</template>
+
+  <section id='quacks-feed'></section>
+
+  <template id='quacksTemplate'>
+    <section class='oneQuack'>
+      <header class='quack-user'>{{user}} says:</header>
+      <main class='quack-body'>{{content}}</main>
+      <footer class='quack-date'>{{date}}
+        <a href='#' class='delete' data-id='{{_id}}'>Delete</a></footer>
+    </section>
+  </template>
+
+</main>
